@@ -31,7 +31,7 @@ const Saved = (props) => {
                         </div>
         
                         <button
-                            className="btn btn-sm btn-secondary ml-auto mr-3 mb-3"
+                            className="btn btn-sm btn-danger ml-auto mr-3 mb-3"
                             id={saved._id}
                             onClick={() => props.deleteBook(saved._id)}>
                                 Delete
