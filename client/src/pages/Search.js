@@ -59,8 +59,6 @@ class Search extends Component {
         e.preventDefault();
 
         let savedBooks = this.state.books.filter((saved) => saved.id === e.target.id);
-        savedBooks = savedBooks[0];
-        console.log(savedBooks)
 
         API.saveBook(savedBooks)
             .then(this.setState({

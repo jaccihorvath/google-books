@@ -26,7 +26,7 @@ const SearchBar = (props) => {
                     type="submit"
                     onClick={props.handleFormSubmit}>
                         Search Book
-                    </button>
+                </button>
             </div>
         </form>
     )
