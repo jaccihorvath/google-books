@@ -35,8 +35,8 @@ class SavedBooks extends Component {
         return (
             <div className="container">
                 <div className="jumbotron text-center" style={styles.jumbotron}>
-                    <h1 className="display-4">Google Books</h1>
-                    <p className="lead">Find and save your favorite books!</p>
+                    <h1 className="display-4">Library</h1>
+                    <p className="lead">Consider this your digital bookshelf.</p>
                     <hr className="my-4"/>
                     
 
