@@ -78,7 +78,7 @@ class Search extends Component {
         return (
             <div className="container">
                 <div className="jumbotron text-center" style={styles.jumbotron}>
-                    <h1 className="display-4">Google Books</h1>
+                    <h1 className="display-4">Google Books Search</h1>
                     <p className="lead">Find and save your favorite books!</p>
                     <hr className="my-4"/>
                     
